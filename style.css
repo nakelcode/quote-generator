@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(img/image-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
+    
+}
+.main-container{
+    background-color: #fff;
+    justify-content: center;
+    height: 40%;
+    padding:20px;
+    text-align: center;
+}
+.container{
+    font-family: "Poppins", sans-serif;
+    margin:20px;
+    color:blueviolet;
+
+}
+.main-content{
+    margin:10px;
+}
+.content{
+    font-family: "Montserrat", sans-serif;
+    font-size:130%;
+    font-weight: 400;
+}
+.author{
+    font-family: "Baskervville SC", sans-serif;
+    margin:10px;
+    color:red;
+    font-size:110%;
+    font-weight: 700;
+}
+button{
+    padding: 4px;
+    margin:5px;
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+}
+.fa{
+    font-size: 30px;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid;
+  
+  }
+  .fa:hover{
+    opacity: 0.7;
+  }
+  .fa-instagram{
+    background: red;
+    color: #ffffff;
+  }
+  .social{
+    text-align: center;
+    margin:10px;
+  }
+  .fa-facebook{
+    background-color: blue;
+    color: #ffffff;
+  }
+  .fa-linkedin{
+    background-color: blue;
+    color: #ffffff;
+  }
+  .fa-github{
+    background-color: black;
+    color: #ffffff;
+  }
